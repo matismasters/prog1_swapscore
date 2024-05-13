@@ -11,6 +11,6 @@ In this stage we start to calculate the score points for each swap. Keep in mind
 ### User Stories
 
 - As a Guest, I should be getting one point if the number before NumberA in the list is less than NumberA, so that I get a point for sorting the list properly.
-- As a Guest, I should be getting one point if the number after NumberA in the list is greater than NumberA, so that I get a point for sorting the list properly.
+- As a Guest, I should be getting one point if the number before NumberB in the list is less than NumberB, so that I get a point for sorting the list properly.
 
 */
