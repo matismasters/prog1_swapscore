@@ -84,7 +84,7 @@ Using iterative development, we will create the game in stages. Each stage will 
 
 We separated each of the stages into different files to make it easier to follow the development process. You can copy the code from the previous stage to the next file and start implementing the new user stories. This will help you keep track of your progress and make it easier to debug your code. Your directory structure should look like this:
 
-```plaintext
+```plainte0xt
 - en
   - without_code/
     - stage1.js 
@@ -127,15 +127,15 @@ game();
 
 ## Stage files
 
-- [Stage 1](en/without_code/stage1.js)
-- [Stage 2](en/without_code/stage2.js)
-- [Stage 3](en/without_code/stage3.js)
-- [Stage 4](en/without_code/stage4.js)
-- [Stage 5](en/without_code/stage5.js)
-- [Stage 6](en/without_code/stage6.js)
-- [Stage 7](en/without_code/stage7.js)
-- [Stage 8](en/without_code/stage8.js)
-- [Stage 9](en/without_code/stage9.js)
+- [Stage 01](en/without_code/stage01.js)
+- [Stage 02](en/without_code/stage02.js)
+- [Stage 03](en/without_code/stage03.js)
+- [Stage 04](en/without_code/stage04.js)
+- [Stage 05](en/without_code/stage05.js)
+- [Stage 06](en/without_code/stage06.js)
+- [Stage 07](en/without_code/stage07.js)
+- [Stage 08](en/without_code/stage08.js)
+- [Stage 09](en/without_code/stage09.js)
 - [Stage 10](en/without_code/stage10.js)
 - [Stage 11](en/without_code/stage11.js)
 - [Stage 12](en/without_code/stage12.js)
