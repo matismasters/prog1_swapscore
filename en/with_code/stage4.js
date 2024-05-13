@@ -11,6 +11,97 @@ In this stage we start to calculate the score points for each swap. Keep in mind
 ### User Stories
 
 - As a Guest, I should be getting one point if the number before NumberA in the list is less than NumberA, so that I get a point for sorting the list properly.
-- As a Guest, I should be getting one point if the number after NumberA in the list is greater than NumberA, so that I get a point for sorting the list properly.
+- As a Guest, I should be getting one point if the number before NumberB in the list is less than NumberB, so that I get a point for sorting the list properly.
 
 */
+
+
+const prompt = require("prompt-sync")();
+
+function generateList() {
+  let list = [];
+  for (let i = 0; i < 10; i++) {
+    list.push(Math.floor(Math.random() * 100));
+  }
+  return list;
+}
+
+function listToText(list) {
+  let text = "";
+  for (let i = 0; i < list.length; i++) {
+    text += i + "-(" + list[i] + "), ";
+  }
+  return text;
+}
+
+function swapNumbers(list, positionA, positionB) {
+  let valueAtPositionA = list[positionA];
+
+  list[positionA] = list[positionB];
+  list[positionB] = valueAtPositionA;
+
+  return list;
+}
+
+function askForValidNumber(message) {
+  let number = parseInt(prompt(message));
+
+  while (isNaN(number)) {
+    console.log("Invalid number");
+    number = parseInt(prompt(message));
+  }
+
+  return number;
+}
+
+function calculateScore(list, positionA, positionB) {
+  let valueBeforePositionA = list[positionA - 1];
+  let valueAtPositionA = list[positionA];
+
+  let valueBeforePositionB = list[positionB - 1];
+  let valueAtPositionB = list[positionB];
+
+  let score = 0;
+  if (valueBeforePositionA < valueAtPositionA) {
+    score++;
+  }
+
+  if (valueBeforePositionB < valueAtPositionB) {
+    score++;
+  }
+
+  return score;
+}
+
+function validateSorted(list) {
+  for (let i = 0; i < list.length - 1; i++) {
+    if (list[i] > list[i + 1]) {
+      return false;
+    }
+  }
+  return true;
+}
+
+function game() {
+  console.clear();
+  let list = generateList();
+  console.log(listToText(list));
+
+  let score = 0;
+
+  while (validateSorted(list) === false) {
+    let positionA = askForValidNumber("Enter position A: ");
+    let positionB = askForValidNumber("Enter position B: ");
+
+    console.clear();
+    list = swapNumbers(list, positionA, positionB);
+    score += calculateScore(list, positionA, positionB);
+    console.log(listToText(list));
+    console.log("Score: " + score)
+  }
+
+  console.log("You won!");
+  console.log("Final Score: " + score)
+}
+
+game();
