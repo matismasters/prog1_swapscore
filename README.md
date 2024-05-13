@@ -1,5 +1,10 @@
 # Swapscore
 
+## Languages
+
+- [English](en/README.md)
+- [Español](es/README.md)
+
 ## Introduction
 
 This is a project to test the skills of programming initiates. The project is a simple game where the player has to swap the numbers in the correct order to get points and win. The example code is written in basic JavaScript, without the usage of any libraries, frameworks, or class methods like filter, map, reduce, etc. We instead favor the use of loops and basic functions to solve the problems. The use of OOP is not required, but it is encouraged to use functions to make the code more readable and maintainable.

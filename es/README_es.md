@@ -116,22 +116,22 @@ function juego() {
 juego();
 ```
 
-## Archivos de etapas
+## Archivos de etapas sin codigo de solucion
 
-- [Etapa 1](en/etapa1.js)
-- [Etapa 2](en/etapa2.js)
-- [Etapa 3](en/etapa3.js)
-- [Etapa 4](en/etapa4.js)
-- [Etapa 5](en/etapa5.js)
-- [Etapa 6](en/etapa6.js)
-- [Etapa 7](en/etapa7.js)
-- [Etapa 8](en/etapa8.js)
-- [Etapa 9](en/etapa9.js)
-- [Etapa 10](en/etapa10.js)
-- [Etapa 11](en/etapa11.js)
-- [Etapa 12](en/etapa12.js)
-- [Etapa 13](en/etapa13.js)
+- [Etapa 1](es/sin_codigo/etapa1.js)
+- [Etapa 2](es/sin_codigo/etapa2.js)
+- [Etapa 3](es/sin_codigo/etapa3.js)
+- [Etapa 4](es/sin_codigo/etapa4.js)
+- [Etapa 5](es/sin_codigo/etapa5.js)
+- [Etapa 6](es/sin_codigo/etapa6.js)
+- [Etapa 7](es/sin_codigo/etapa7.js)
+- [Etapa 8](es/sin_codigo/etapa8.js)
+- [Etapa 9](es/sin_codigo/etapa9.js)
+- [Etapa 10](es/sin_codigo/etapa10.js)
+- [Etapa 11](es/sin_codigo/etapa11.js)
+- [Etapa 12](es/sin_codigo/etapa12.js)
+- [Etapa 13](es/sin_codigo/etapa13.js)
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](https://) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT
