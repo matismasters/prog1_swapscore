@@ -86,9 +86,10 @@ We separated each of the stages into different files to make it easier to follow
 
 ```plaintext
 - en
-  - stage1.js 
-  - stage2.js
-  - stage3.js
+  - without_code/
+    - stage1.js 
+    - stage2.js
+    - stage3.js
   ...
 ```
 
