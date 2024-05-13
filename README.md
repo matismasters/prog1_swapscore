@@ -126,19 +126,19 @@ game();
 
 ## Stage files
 
-- [Stage 1](en/stage1.js)
-- [Stage 2](en/stage2.js)
-- [Stage 3](en/stage3.js)
-- [Stage 4](en/stage4.js)
-- [Stage 5](en/stage5.js)
-- [Stage 6](en/stage6.js)
-- [Stage 7](en/stage7.js)
-- [Stage 8](en/stage8.js)
-- [Stage 9](en/stage9.js)
-- [Stage 10](en/stage10.js)
-- [Stage 11](en/stage11.js)
-- [Stage 12](en/stage12.js)
-- [Stage 13](en/stage13.js)
+- [Stage 1](es/without_code/stage1.js)
+- [Stage 2](es/without_code/stage2.js)
+- [Stage 3](es/without_code/stage3.js)
+- [Stage 4](es/without_code/stage4.js)
+- [Stage 5](es/without_code/stage5.js)
+- [Stage 6](es/without_code/stage6.js)
+- [Stage 7](es/without_code/stage7.js)
+- [Stage 8](es/without_code/stage8.js)
+- [Stage 9](es/without_code/stage9.js)
+- [Stage 10](es/without_code/stage10.js)
+- [Stage 11](es/without_code/stage11.js)
+- [Stage 12](es/without_code/stage12.js)
+- [Stage 13](es/without_code/stage13.js)
 
 ## License
 
