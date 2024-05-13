@@ -142,8 +142,7 @@ game();
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://) file for details.
-
+This project is licensed under the MIT License
 
 
 
