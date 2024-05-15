@@ -1,3 +1,11 @@
 .oculto {
   display: none!important;
 }
+
+li.list-group-item:hover {
+  background-color: lightblue;
+}
+
+li.list-group-item.selected {
+  background-color: lightblue;
+}

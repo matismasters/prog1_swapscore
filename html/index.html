@@ -85,19 +85,54 @@
               </form>
             </div>
           </div>
+
+          <!-- visualizador de indices seleccionados -->
+          <div class="panel panel-default" id="panel-jugadas-y-puntajes">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="nombre-jugador-este-turno">
+                Turno 3/25. Juega: Invitado
+              </h3>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <label for="indiceA">IndiceA</label>
+                <input type="text" class="form-control list-item" id="indiceA" placeholder="Indice 1">
+              </div>
+              <div class="form-group">
+                <label for="indiceB">IndiceB</label>
+                <input type="text" class="form-control list-item" id="indiceB" placeholder="Indice 2">
+              </div>
+            </div>
+
+            <div class="panel-footer">
+              <button class="btn btn-primary" id="intercambiar-numeros">Intercambiar Números</button>
+            </div>
+          </div>
+
+          <!-- visualizador de puntajes -->
+          <div class="panel panel-default" id="panel-puntajes">
+            <div class="panel-heading main-color-bg">
+              <h3 class="panel-title">Puntajes</h3>
+            </div>
+            <div class="panel-body">
+              <ul class="list-group" id="lista-puntajes">
+                <li class="list-group-item">Invitado: 0</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <!-- Contenido Principal: Listas de numeros -->
         <div class="col-md-9">
           <div class="panel panel-default" id="listas-de-numeros">
             <div class="panel-heading main-color-bg">
-              <h3 class="panel-title">Listas de Números</h3>
+              <h3 class="panel-title">Ordena las listas!</h3>
             </div>
             <div class="panel-body">
               <div class="row">
                 <div class="col-md-4 lista-de-numeros">
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <h3 class="panel-title">Lista 1</h3>
+                      <h3 class="panel-title">Lista A</h3>
                     </div>
                     <div class="panel-body">
                       <ul class="list-group">
@@ -111,7 +146,7 @@
                 <div class="col-md-4 lista-de-numeros">
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <h3 class="panel-title">Lista 1</h3>
+                      <h3 class="panel-title">Lista B</h3>
                     </div>
                     <div class="panel-body">
                       <ul class="list-group">
@@ -125,7 +160,7 @@
                 <div class="col-md-4 lista-de-numeros">
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <h3 class="panel-title">Lista 1</h3>
+                      <h3 class="panel-title">Lista C</h3>
                     </div>
                     <div class="panel-body">
                       <ul class="list-group">
@@ -139,7 +174,7 @@
                 <div class="col-md-4 lista-de-numeros">
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <h3 class="panel-title">Lista 1</h3>
+                      <h3 class="panel-title">Lista D</h3>
                     </div>
                     <div class="panel-body">
                       <ul class="list-group">
@@ -153,7 +188,7 @@
                 <div class="col-md-4 lista-de-numeros">
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <h3 class="panel-title">Lista 1</h3>
+                      <h3 class="panel-title">Lista E</h3>
                     </div>
                     <div class="panel-body">
                       <ul class="list-group">
@@ -167,7 +202,7 @@
                 <div class="col-md-4 lista-de-numeros">
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <h3 class="panel-title">Lista 1</h3>
+                      <h3 class="panel-title">Lista F</h3>
                     </div>
                     <div class="panel-body">
                       <ul class="list-group">
