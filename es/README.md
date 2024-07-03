@@ -1,4 +1,3 @@
-
 # Swapscore
 
 ## Introducción
@@ -58,17 +57,20 @@ Si quieres usar cualquier otro editor de código, puedes ejecutar tu código usa
 **Swap Score** es un juego sencillo centrado en la tarea de ordenar números. Puede jugarse individualmente o con múltiples jugadores.
 
 ### **Resumen del juego:**
+
 - El juego se divide en rondas, y cada jugador toma un turno por ronda.
 - Al comienzo de cada turno, se presentan múltiples listas de números desordenados a los jugadores.
 - Durante su turno, los jugadores pueden intercambiar dos números de cualquier posición a otra posición en la misma lista o en otras.
 
 ### **Puntuación:**
+
 - Si el número intercambiado por el usuario, después de ser intercambiado, `es mayor` al número `anterior` en su lista, el jugador obtiene un punto. Lo mismo aplica para ambos números involucrados en el intercambio.
 - Si el número intercambiado por el usuario, después de ser intercambiado, `es menor` al número `siguiente` en su lista, el jugador obtiene un punto. Lo mismo aplica para ambos números involucrados en el intercambio.
 - Si el número intercambiado por el usuario, después de ser intercambiado, `esta al final o al principio` de una lista el jugador obtiene un punto extra. Lo mismo aplica para ambos números involucrados en el intercambio.
 - Se otorga un bono significativo de 10 puntos si un intercambio resulta en que una lista completa esté ordenada. Esta lista se elimina del juego y se reemplaza por una nueva.
 
 ### **Finalización del juego:**
+
 - El juego concluye después de un número predeterminado de rondas.
 - El ganador es el jugador que acumula más puntos.
 
@@ -78,9 +80,9 @@ Este juego ofrece desafíos únicos, ya sea jugado solo o con otros. En el modo 
 
 Usando el desarrollo iterativo, crearemos el juego en etapas. Cada etapa tendrá un conjunto de historias de usuario que guiarán el proceso de desarrollo. Al final de cada etapa, el juego debería ser jugable, y el código debería ser refactorizado para ser más legible y mantenible.
 
-Hemos separado cada una de las etapas en diferentes archivos para facilitar el seguimiento del proceso de desarrollo. Puedes copiar el código de la etapa anterior al siguiente archivo y comenzar a implementar las nuevas historias de usuario. Esto te ayudará a mantener un registro de tu progreso y a facilitar la depuración de tu código. 
+Hemos separado cada una de las etapas en diferentes archivos para facilitar el seguimiento del proceso de desarrollo. Puedes copiar el código de la etapa anterior al siguiente archivo y comenzar a implementar las nuevas historias de usuario. Esto te ayudará a mantener un registro de tu progreso y a facilitar la depuración de tu código.
 
-Sientete libre de modificar los archivos en la carpeta `es/sin_codigo/<etapa>.js`. 
+Sientete libre de modificar los archivos en la carpeta `es/sin_codigo/<etapa>.js`.
 
 En la carpeta `es/con_codigo/` encontraras la solución de ejemplo para cada etapa.
 
@@ -135,3 +137,4 @@ juego();
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT
+
